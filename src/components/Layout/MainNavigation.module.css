@@ -1,0 +1,32 @@
+.container {
+  /* background-color: #fab972; */
+  background: rgb(252, 255, 59);
+  background: linear-gradient(
+    342deg,
+    rgba(252, 255, 59, 1) 0%,
+    rgba(155, 255, 49, 1) 100%
+  );
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+}
+
+.mainHeading {
+  margin: 0rem 10rem;
+  padding: 2rem 1rem;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 492px) {
+  .container {
+    justify-content: center;
+  }
+  .mainHeading {
+    margin: 0rem 2rem;
+    padding: 1rem 1rem;
+    font-size: 3rem;
+  }
+}

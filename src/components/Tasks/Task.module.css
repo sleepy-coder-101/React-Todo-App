@@ -1,0 +1,57 @@
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.card {
+  padding: 0.4rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card.text {
+  flex-basis: 90%;
+  text-align: left;
+}
+
+.card .done {
+  flex-basis: 10%;
+
+  /* width: 10%; */
+  text-align: right;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox:checked {
+  background-color: green;
+}
+
+@media screen and (max-width: 492px) {
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+}
